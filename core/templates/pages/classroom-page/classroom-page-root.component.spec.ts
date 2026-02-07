@@ -44,7 +44,7 @@ describe('Classroom Root Page', () => {
     TestBed.configureTestingModule({
       imports: [HttpClientTestingModule],
       declarations: [ClassroomPageRootComponent, MockTranslatePipe],
-      providers: [PageHeadService,UrlService,AccessValidationBackendApiService],
+      providers: [PageHeadService, UrlService, AccessValidationBackendApiService],
       schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
   }));
